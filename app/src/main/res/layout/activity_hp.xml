@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iu33.driverbangjek.HpActivity"
+    android:background="@color/background">
+
+    <EditText
+        android:id="@+id/edtNohp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@android:drawable/editbox_background_normal"
+        android:hint="Masukkan Nomor Hp"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/txtKet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNohp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center_horizontal"
+        android:text="Pastikan Nomor yang anda masukkan benar, Agar Driver mudah Menghubungi anda" />
+
+    <Button
+        android:id="@+id/btnsubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_below="@+id/txtKet"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:text="Submit"
+        android:textSize="14sp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>
